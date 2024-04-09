@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#011627 ;
+    color: #fdfffc;
+    text-align: center;
+   background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+h1{
+    padding: 7%;
+    font-size: 80px;
+    color: black;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+  }
+
+
+.clcs{
+    background-color: rgb(179, 175, 170);
+    max-width: fit-content;
+    border-radius: 10px;
+
+    
+}
+.device{
+    
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+input{
+    width:75px;
+    height: 50px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    color:black;
+
+
+}
+
+.button:hover{
+    background-color: goldenrod;
+    cursor:pointer;
+}
+
+.button:active{
+    background-color: rgb(255, 115, 0);
+}
